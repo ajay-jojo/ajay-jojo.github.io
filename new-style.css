@@ -698,6 +698,12 @@ div.gallery {
     #our-facilities{
         height: 100%;
     }
+    
+    #contact-us{
+        max-width: 500px;
+        padding-bottom: 10px;
+    }
+    
 
     
 }
@@ -740,6 +746,11 @@ div.gallery {
     .icon{
         width: 32px;
         
+    }
+    
+    #contact-us{
+        max-width: 500px;
+        padding-bottom: 10px;
     }
 
     
