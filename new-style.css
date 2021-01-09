@@ -253,6 +253,7 @@ p{
 
 #banner-tagline{
     color: var(--secondarycolor);
+    font-size: 0.8em;
     
 }
 
@@ -709,6 +710,11 @@ div.gallery {
         height: 100%;
     }
 
+    #banner-tagline{
+        color: var(--secondarycolor);
+        font-size: 0.8em;
+        
+    }
     
 
     
