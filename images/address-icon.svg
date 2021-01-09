@@ -1,0 +1,16 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+
+ <title/>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <polygon stroke-width="2px" stroke-linejoin="round" stroke-linecap="round" stroke="#a57838" fill="none" id="svg_1" points="25 11 10 15 10 53 25 49 25 11" class="cls-1"/>
+  <polyline stroke-width="2px" stroke-linejoin="round" stroke-linecap="round" stroke="#a57838" fill="none" id="svg_2" points="34.17 13.5 25 11 25 49 40 53 40 26.44" class="cls-1"/>
+  <polyline stroke-width="2px" stroke-linejoin="round" stroke-linecap="round" stroke="#a57838" fill="none" id="svg_3" points="40 26.44 40 53 55 49 55 26.44" class="cls-1"/>
+  <path transform="rotate(-45 47.43412780761718,14.684139251708983) " stroke-width="2px" stroke-linejoin="round" stroke-linecap="round" stroke="#a57838" fill="none" id="svg_4" d="m47.434106,5.459138l0,0a9.21,9.21 0 0 1 9.21,9.21l0,0a9.21,9.21 0 0 1 -9.21,9.24l-9.21,0a0,0 0 0 1 0,0l0,-9.23a9.21,9.21 0 0 1 9.21,-9.22z" class="cls-1"/>
+  <circle stroke-width="2px" stroke-linejoin="round" stroke-linecap="round" stroke="#a57838" fill="none" id="svg_5" r="4.28" cy="14.68" cx="47.5" class="cls-1"/>
+ </g>
+</svg>
