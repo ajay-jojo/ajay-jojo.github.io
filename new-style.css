@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    
 }
 
 /*variables*/
@@ -150,6 +151,7 @@ p{
     width: 100%;
     height: auto;
     filter: opacity(70%);
+    display: block;
     
 
 }
@@ -323,8 +325,8 @@ p{
     width: 200px;
     font-weight: 700;
     color: #b87618;
-    list-style-type: "★";
-    letter-spacing: 1.2px;
+    list-style-type: "👍  ";
+    letter-spacing: 1.4px;
     list-style-position:outside;
     line-height: 1.8;
     
@@ -354,6 +356,7 @@ p{
 div.gallery {
     border: 1px solid #ccc;
     background: #f3f1f0;
+    opacity: 80%;
   }
   
   div.gallery:hover {
@@ -644,26 +647,29 @@ div.gallery {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #eee;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
     text-align:center;
 
   }
-  
+
+
   .sidenav a {
-    padding: 8px 8px 8px 32px;
+
+    font-family: 'DM Serif Display', serif;
+    padding: 16px 16px 16px 16px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 28px;
+    color: var(--secondarycolor);
     display: block;
     transition: 0.3s;
   
   }
   
   .sidenav a:hover{
-    color: #f1f1f1;
+    color: var(--othercolor);
   }
   
   .sidenav .closebtn {
@@ -712,7 +718,7 @@ div.gallery {
     }
 
     .lists ul{
-        width: 350px;
+        width: 300px;
         
     }
 
@@ -741,7 +747,7 @@ div.gallery {
     }
     #contact-us{
         
-        max-height: 100vh;
+        max-height: 600px;
         
         
     }
@@ -926,6 +932,34 @@ div.gallery {
 }
 
 @media screen and (min-width:1500px) {
+    body{
+        font-size: 26px;
+    }
     
+    .slider , .slide, .slide img{
+        width: 760px;
+        height: 460px;
+    }
 
+    .slider{
+        height: 500px;
+    }
+    .navigation-manual{
+        width: 760px;
+    }
+
+    .navigation-auto{
+        width: 760px;
+        margin-top: 476px;
+    }
+
+}
+
+@media screen and (min-width: 2000px) {
+
+    body{
+        max-width: 1920px;
+        max-height: 1080px;
+        margin: auto;
+    }
 }
