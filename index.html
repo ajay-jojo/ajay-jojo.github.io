@@ -121,7 +121,7 @@
     <section class="section" id="our-facilities">
             <div class="section-head"><h2>Our facilities</h2></div>
             <div class="section-content">
-                <div><h3>Our banquet hall is fully euipped and ideal for all kinds of events</h3></div>
+                <div><h3>Our banquet hall is fully euipped and ideal for all kind of events</h3></div>
                 <div class="lists">
                     <div class="list1">
                         <h4 >Business Events</h4>
@@ -172,7 +172,7 @@
                     
                     <div class="responsive">
                       <div class="gallery">
-                          <img id = "myImg" src="/images/banquet-hall.jpg" alt="" width="600" height="400" >
+                          <img id = "myImg" src="/images/banquet-hall.jpg" alt="hall" width="600" height="400" >
                         <div class="desc">Add a description of the image here</div>
                       </div>
                     </div>
@@ -180,28 +180,28 @@
                     
                     <div class="responsive">
                       <div class="gallery">
-                          <img id = "myImg" src="/images/banquet-hall.jpg" alt="" width="600" height="400" >
+                          <img id = "myImg" src="/images/banquet-hall.jpg" alt="hall" width="600" height="400" >
                         <div class="desc">Add a description of the image here</div>
                       </div>
                     </div>
                     
                     <div class="responsive">
                       <div class="gallery">
-                          <img id = "myImg" src="/images/banquet-hall.jpg" alt=" " width="600" height="400">
+                          <img id = "myImg" src="/images/banquet-hall.jpg" alt="hall" width="600" height="400">
                         <div class="desc">Add a description of the image here</div>
                       </div>
                     </div>
                     
                     <div class="responsive">
                       <div class="gallery">
-                          <img id = "myImg" src="/images/banquet-hall.jpg" alt="" width="600" height="400">
+                          <img id = "myImg" src="/images/banquet-hall.jpg" alt="hall" width="600" height="400">
                         <div class="desc">Add a description of the image here</div>
                       </div>
                     </div>
                     
                     <div class="responsive">
                         <div class="gallery">
-                            <img id = "myImg" src="/images/banquet-hall.jpg" alt="" width="600" height="400" >
+                            <img id = "myImg" src="/images/banquet-hall.jpg" alt="hall" width="600" height="400" >
                           <div class="desc">Add a description of the image here</div>
                         </div>
                       </div>
@@ -209,21 +209,21 @@
                       
                       <div class="responsive">
                         <div class="gallery">
-                            <img id = "myImg" src="/images/banquet-hall.jpg" alt="" width="600" height="400" >
+                            <img id = "myImg" src="/images/banquet-hall.jpg" alt="hall" width="600" height="400" >
                           <div class="desc">Add a description of the image here</div>
                         </div>
                       </div>
                       
                       <div class="responsive">
                         <div class="gallery">
-                            <img id = "myImg" src="/images/banquet-hall.jpg" alt=" " width="600" height="400">
+                            <img id = "myImg" src="/images/banquet-hall.jpg" alt="hall" width="600" height="400">
                           <div class="desc">Add a description of the image here</div>
                         </div>
                       </div>
                       
                       <div class="responsive">
                         <div class="gallery">
-                            <img id = "myImg" src="/images/banquet-hall.jpg" alt="" width="600" height="400">
+                            <img id = "myImg" src="/images/banquet-hall.jpg" alt="hall" width="600" height="400">
                           <div class="desc">Add a description of the image here</div>
                         </div>
                       </div>
@@ -293,7 +293,7 @@
                         </div>
 
                         <div class="social-media-icons">
-                            <a href="https://wa.me/?text=Hello!%20I%20would%20like%20to%20organise%20an%20event%20in%20your%20hall"
+                            <a href="//api.whatsapp.com/send?phone=919533906083&text=Hi%20there!%20I%20would%20like%20to%20organise%20an%20event%20in%20your%20hall"
                             data-action="share/whatsapp/share"
                             target="_blank"><img src="/images/WhatsApp_icon.png" alt=""></a>
                             <a href="#" target="_BLANK"><img src="/images/Instagram_icon.png" alt=""></a>
@@ -323,19 +323,21 @@
        
         function imagePop() {
             const images = document.querySelectorAll('#myImg');
-            const modalImg = document.getElementById("img01");
+            
             images.forEach(function(picture){
                 picture.addEventListener('click', (e)=>{
                     const popImage = document.querySelector('#img01');
                     modal.style.display = "block";
                     popImage.src = e.target.src;
                     console.log(popImage.src);
+                    
                 })
             })
         } 
         imagePop();
 
         const modal = document.querySelector("#myModal");
+        const caption = document.getElementById('#caption');
         // Get the <span> element that closes the modal
         const span = document.getElementsByClassName("close")[0];
         // When the user clicks on <span> (x), close the modal
